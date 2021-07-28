@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see."
+
+echo "What is your name?"
+read
+
+echo "What is your quest?"
+read A
+if [ "$A" == "To seek the Holy Grail" ];
+then echo "What is the air-speed velocity of an unladen swallow?"
+fi
+
+read B
+if [ "$B == "African or European" ];
+then echo "Huh? I don't know that. Ahhhhhh"
+fi
