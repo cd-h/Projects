@@ -12,6 +12,6 @@ then echo "What is the air-speed velocity of an unladen swallow?"
 fi
 
 read B
-if [ "$B == "African or European" ];
+if [ "$B" == "African or European" ];
 then echo "Huh? I don't know that. Ahhhhhh"
 fi
